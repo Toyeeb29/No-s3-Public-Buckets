@@ -8,9 +8,9 @@ Preventing accidental public S3 buckets is one of the most critical security win
 
 * Author a security policy using the Rego language.
 
-* Validate Infrastructure as Code (IaC) data against security standards.
+* Validate it against a sample s3 configuration.
 
-* Automate enforcement within a cloud-native environment.
+* Automate enforcement within a cloud-native environment (GitHub Codespaces).
 
 ### Step-by-Step Instructions
 **1. Environment Setup**
