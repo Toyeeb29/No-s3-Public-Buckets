@@ -48,6 +48,7 @@ conftest test input.json --all-namespaces
 ```
 You should see output like this:
 
+
 <img width="358" height="34" alt="s3 no bucket" src="https://github.com/user-attachments/assets/6380d85e-d3a8-4e72-b52d-1f9e18fb2e00" />
 
 
