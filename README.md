@@ -50,6 +50,7 @@ You should see output like this:
 
 <img width="358" height="34" alt="s3 no bucket" src="https://github.com/user-attachments/assets/6380d85e-d3a8-4e72-b52d-1f9e18fb2e00" />
 
+
 **5. Remediate and Verify**
 Update input.json to set the acl to "private", then re-run the test. 
 Expected Result: PASS — The secure configuration is approved.
@@ -58,11 +59,12 @@ Expected Result: PASS — The secure configuration is approved.
 
 
 **Security & Compliance Impact**
+
 This lab demonstrates the automated enforcement of industry-standard security controls:
 
-NIST SP 800-53 | AC-6(10) – Least Privilege (Automated): This policy automatically restricts data storage permissions to the minimum necessary level. By programmatically blocking public access, we eliminate human error and ensure that "Least Privilege" is a default state, not an afterthought.
+NIST SP 800-53 | AC-6(10) – Least Privilege (Automated): This policy automatically restricts data storage permissions to the minimum necessary level. By programmatically blocking public access, I eliminate human error and ensure that "Least Privilege" is a default state, not an afterthought.
 
-NIST SP 800-53 | SC-12 – Unauthorized Public Access: This acts as a primary technical safeguard against data exfiltration. By strictly prohibiting public bucket configurations, we maintain data confidentiality and ensure sensitive information is never exposed to the public internet.
+NIST SP 800-53 | SC-12 – Unauthorized Public Access: This acts as a primary technical safeguard against data exfiltration. By strictly prohibiting public bucket configurations,I maintain data confidentiality and ensure sensitive information is never exposed to the public internet.
 
 
 
