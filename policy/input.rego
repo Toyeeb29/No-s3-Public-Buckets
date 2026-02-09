@@ -1,4 +1,5 @@
 package s3policy
+
 import rego.v1
 
 deny contains message if {
