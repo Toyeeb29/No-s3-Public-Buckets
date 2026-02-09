@@ -54,6 +54,9 @@ You should see output like this:
 Update input.json to set the acl to "private", then re-run the test. 
 Expected Result: PASS — The secure configuration is approved.
 
+<img width="358" height="26" alt="image" src="https://github.com/user-attachments/assets/65ac69d5-3766-4791-8ec6-9d7c64292b80" />
+
+
 **Security & Compliance Impact**
 This lab demonstrates the automated enforcement of industry-standard security controls:
 
